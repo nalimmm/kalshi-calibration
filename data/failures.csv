@@ -1,0 +1,168 @@
+ticker,error
+KXNFLGAME-25OCT20HOUSEA-HOU,Kalshi API still failing after 5 attempts: /historical/markets/KXNFLGAME-25OCT20HOUSEA-HOU/candlesticks {'start_ts': 176
+KXNFLGAME-26SEP21NYGLAR-LAR,Kalshi API still failing after 5 attempts: /series/KXNFLGAME/markets/KXNFLGAME-26SEP21NYGLAR-LAR/candlesticks {'start_ts
+KXATPCHALLENGERMATCH-26APR13GADSHI-GAD,Kalshi API still failing after 5 attempts: /historical/markets/KXATPCHALLENGERMATCH-26APR13GADSHI-GAD/candlesticks {'sta
+KXATPCHALLENGERMATCH-26AUG30AGUDEL-DEL,Kalshi API still failing after 5 attempts: /series/KXATPCHALLENGERMATCH/markets/KXATPCHALLENGERMATCH-26AUG30AGUDEL-DEL/c
+KXNCAAMBGAME-26FEB14WOFUNCG-WOF,Kalshi API still failing after 5 attempts: /historical/markets/KXNCAAMBGAME-26FEB14WOFUNCG-WOF/candlesticks {'start_ts':
+KXNCAAFGAME-25OCT25CONNRICE-CONN,Kalshi API still failing after 5 attempts: /historical/markets/KXNCAAFGAME-25OCT25CONNRICE-CONN/candlesticks {'start_ts'
+KXNCAAFGAME-25SEP20USMLT-LT,Kalshi API still failing after 5 attempts: /historical/markets/KXNCAAFGAME-25SEP20USMLT-LT/candlesticks {'start_ts': 175
+KXNFLGAME-25DEC28PHIBUF-BUF,Kalshi API still failing after 5 attempts: /historical/markets/KXNFLGAME-25DEC28PHIBUF-BUF/candlesticks {'start_ts': 176
+KXITFMATCH-26APR15MOEMAC-MAC,Kalshi API still failing after 5 attempts: /historical/markets/KXITFMATCH-26APR15MOEMAC-MAC/candlesticks {'start_ts': 17
+KXITFWMATCH-26AUG25FETBED-BED,Kalshi API still failing after 5 attempts: /series/KXITFWMATCH/markets/KXITFWMATCH-26AUG25FETBED-BED/candlesticks {'star
+KXMLBTOTAL-26APR051335MIANYY-13,Kalshi API still failing after 5 attempts: /historical/markets/KXMLBTOTAL-26APR051335MIANYY-13/candlesticks {'start_ts':
+KXMLBTOTAL-26SEP221940MIACHC-9,Kalshi API still failing after 5 attempts: /series/KXMLBTOTAL/markets/KXMLBTOTAL-26SEP221940MIACHC-9/candlesticks {'star
+KXMLBTOTAL-26AUG091410MINMIL-5,Kalshi API still failing after 5 attempts: /series/KXMLBTOTAL/markets/KXMLBTOTAL-26AUG091410MINMIL-5/candlesticks {'star
+KXNBASPREAD-26MAY01CLETOR-CLE18,Kalshi API still failing after 5 attempts: /historical/markets/KXNBASPREAD-26MAY01CLETOR-CLE18/candlesticks {'start_ts':
+KXNBASPREAD-26MAR14CHASAS-SAS7,Kalshi API still failing after 5 attempts: /historical/markets/KXNBASPREAD-26MAR14CHASAS-SAS7/candlesticks {'start_ts': 
+KXNBASPREAD-26MAR10DETBKN-DET23,Kalshi API still failing after 5 attempts: /historical/markets/KXNBASPREAD-26MAR10DETBKN-DET23/candlesticks {'start_ts':
+KXNBASPREAD-26MAR10DETBKN-DET2,Kalshi API still failing after 5 attempts: /historical/markets/KXNBASPREAD-26MAR10DETBKN-DET2/candlesticks {'start_ts': 
+KXNBASPREAD-26FEB19TORCHI-CHI11,Kalshi API still failing after 5 attempts: /historical/markets/KXNBASPREAD-26FEB19TORCHI-CHI11/candlesticks {'start_ts':
+KXNHLGAME-25DEC11CARWSH-CAR,Kalshi API still failing after 5 attempts: /historical/markets/KXNHLGAME-25DEC11CARWSH-CAR/candlesticks {'start_ts': 176
+KXMLBSPREAD-26MAY302210PHILAD-LAD3,Kalshi API still failing after 5 attempts: /historical/markets/KXMLBSPREAD-26MAY302210PHILAD-LAD3/candlesticks {'start_t
+KXMLBSPREAD-26MAY052040NYMCOL-COL4,Kalshi API still failing after 5 attempts: /historical/markets/KXMLBSPREAD-26MAY052040NYMCOL-COL4/candlesticks {'start_t
+KXMLBSPREAD-25OCT05DETSEA-DET2,Kalshi API still failing after 5 attempts: /historical/markets/KXMLBSPREAD-25OCT05DETSEA-DET2/candlesticks {'start_ts': 
+KXMLBSPREAD-26AUG231610CHCSEA-SEA4,Kalshi API still failing after 5 attempts: /series/KXMLBSPREAD/markets/KXMLBSPREAD-26AUG231610CHCSEA-SEA4/candlesticks {
+KXUFCFIGHT-25JUL19PRAVER-PRA,Kalshi API still failing after 5 attempts: /historical/markets/KXUFCFIGHT-25JUL19PRAVER-PRA/candlesticks {'start_ts': 17
+KXNBATOTAL-26APR12GSWLAC-232,Kalshi API still failing after 5 attempts: /historical/markets/KXNBATOTAL-26APR12GSWLAC-232/candlesticks {'start_ts': 17
+KXNBATOTAL-26JAN19PHXBKN-220,Kalshi API still failing after 5 attempts: /historical/markets/KXNBATOTAL-26JAN19PHXBKN-220/candlesticks {'start_ts': 17
+KXNBATOTAL-25DEC18NYKIND-236,Kalshi API still failing after 5 attempts: /historical/markets/KXNBATOTAL-25DEC18NYKIND-236/candlesticks {'start_ts': 17
+KXWCSCORE-26JUL03COLGHA-COL5GHA0,Kalshi API still failing after 5 attempts: /historical/markets/KXWCSCORE-26JUL03COLGHA-COL5GHA0/candlesticks {'start_ts'
+KXWCSCORE-26JUL03ARGCPV-ARG2CPV3,Kalshi API still failing after 5 attempts: /historical/markets/KXWCSCORE-26JUL03ARGCPV-ARG2CPV3/candlesticks {'start_ts'
+KXWCSCORE-26JUN24RSAKOR-RSA2KOR1,Kalshi API still failing after 5 attempts: /historical/markets/KXWCSCORE-26JUN24RSAKOR-RSA2KOR1/candlesticks {'start_ts'
+KXWCSCORE-26JUN20GERCIV-GER0CIV1,Kalshi API still failing after 5 attempts: /historical/markets/KXWCSCORE-26JUN20GERCIV-GER0CIV1/candlesticks {'start_ts'
+KXWCSCORE-26JUN19USAAUS-USA5AUS1,Kalshi API still failing after 5 attempts: /historical/markets/KXWCSCORE-26JUN19USAAUS-USA5AUS1/candlesticks {'start_ts'
+KXWCSCORE-26JUN17AUTJOR-AUT3JOR0,Kalshi API still failing after 5 attempts: /historical/markets/KXWCSCORE-26JUN17AUTJOR-AUT3JOR0/candlesticks {'start_ts'
+KXWCSCORE-26JUN14SWETUN-SWE1TUN3,Kalshi API still failing after 5 attempts: /historical/markets/KXWCSCORE-26JUN14SWETUN-SWE1TUN3/candlesticks {'start_ts'
+KXWCSCORE-26JUN12CANBIH-CAN3BIH3,Kalshi API still failing after 5 attempts: /historical/markets/KXWCSCORE-26JUN12CANBIH-CAN3BIH3/candlesticks {'start_ts'
+KXNFLSPREAD-25DEC28PHIBUF-BUF2,Kalshi API still failing after 5 attempts: /historical/markets/KXNFLSPREAD-25DEC28PHIBUF-BUF2/candlesticks {'start_ts': 
+KXNFLSPREAD-25DEC28NENYJ-NYJ3,Kalshi API still failing after 5 attempts: /historical/markets/KXNFLSPREAD-25DEC28NENYJ-NYJ3/candlesticks {'start_ts': 1
+KXNFLSPREAD-25DEC28NENYJ-NE6,Kalshi API still failing after 5 attempts: /historical/markets/KXNFLSPREAD-25DEC28NENYJ-NE6/candlesticks {'start_ts': 17
+KXNFLSPREAD-25NOV09LASF-LA17,Kalshi API still failing after 5 attempts: /historical/markets/KXNFLSPREAD-25NOV09LASF-LA17/candlesticks {'start_ts': 17
+KXNFLSPREAD-25SEP28GBDAL-DAL3,Kalshi API still failing after 5 attempts: /historical/markets/KXNFLSPREAD-25SEP28GBDAL-DAL3/candlesticks {'start_ts': 1
+KXFEDDECISION-25OCT-C26,Kalshi API still failing after 5 attempts: /historical/markets/KXFEDDECISION-25OCT-C26/candlesticks {'start_ts': 1754402
+KXFEDDECISION-25SEP-H25,Kalshi API still failing after 5 attempts: /historical/markets/KXFEDDECISION-25SEP-H25/candlesticks {'start_ts': 1757440
+KXNFLSPREAD-25DEC21BUFCLE-BUF9,Kalshi API still failing after 5 attempts: /historical/markets/KXNFLSPREAD-25DEC21BUFCLE-BUF9/candlesticks {'start_ts': 
+FEDDECISION-23NOV-H25,Kalshi API still failing after 5 attempts: /historical/markets/FEDDECISION-23NOV-H25/candlesticks {'start_ts': 169541280
+KXHIGHNY-26JAN09-T49,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHNY-26JAN09-T49/candlesticks {'start_ts': 1767884400
+KXHIGHNY-25OCT17-B65.5,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHNY-25OCT17-B65.5/candlesticks {'start_ts': 17606232
+HIGHNY-24FEB12-T52,"Kalshi API still failing after 5 attempts: /historical/markets/HIGHNY-24FEB12-T52/candlesticks {'start_ts': 1707663600, "
+INX-24FEB16-B5012,"Kalshi API still failing after 5 attempts: /historical/markets/INX-24FEB16-B5012/candlesticks {'start_ts': 1707512400, '"
+KXINX-26JUL27H1600-B7412,Kalshi API still failing after 5 attempts: /series/KXINX/markets/KXINX-26JUL27H1600-B7412/candlesticks {'start_ts': 1784
+KXMAYORNYCPARTY-25-R,Kalshi API still failing after 5 attempts: /historical/markets/KXMAYORNYCPARTY-25-R/candlesticks {'start_ts': 1761794338
+KXFIRSTSUPERBOWLSONG-26FEB09-PER,Kalshi API still failing after 5 attempts: /historical/markets/KXFIRSTSUPERBOWLSONG-26FEB09-PER/candlesticks {'start_ts'
+NASDAQ100-24APR17-B17350,Kalshi API still failing after 5 attempts: /historical/markets/NASDAQ100-24APR17-B17350/candlesticks {'start_ts': 171329
+KXHIGHMIA-26MAY10-B90.5,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHMIA-26MAY10-B90.5/candlesticks {'start_ts': 1778335
+KXWTI-26MAY2614-T91.99,Kalshi API still failing after 5 attempts: /historical/markets/KXWTI-26MAY2614-T91.99/candlesticks {'start_ts': 17794062
+KXWTI-26APR13-T80.99,Kalshi API still failing after 5 attempts: /historical/markets/KXWTI-26APR13-T80.99/candlesticks {'start_ts': 1775927400
+KXWTI-26APR08-T116.99,Kalshi API still failing after 5 attempts: /historical/markets/KXWTI-26APR08-T116.99/candlesticks {'start_ts': 177551820
+KXWTI-26SEP0414-T93.49,Kalshi API still failing after 5 attempts: /series/KXWTI/markets/KXWTI-26SEP0414-T93.49/candlesticks {'start_ts': 178839
+KXHIGHAUS-25JAN10-B46.5,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHAUS-25JAN10-B46.5/candlesticks {'start_ts': 1736434
+KXRT-TOY-55,"Kalshi API still failing after 5 attempts: /historical/markets/KXRT-TOY-55/candlesticks {'start_ts': 1779372000, 'end_ts"
+KXRT-SUPE-40,"Kalshi API still failing after 5 attempts: /historical/markets/KXRT-SUPE-40/candlesticks {'start_ts': 1782050400, 'end_t"
+KXRT-POW-75,"Kalshi API still failing after 5 attempts: /historical/markets/KXRT-POW-75/candlesticks {'start_ts': 1780236000, 'end_ts"
+KXRT-BAC-85,"Kalshi API still failing after 5 attempts: /historical/markets/KXRT-BAC-85/candlesticks {'start_ts': 1779631200, 'end_ts"
+KXRT-DEV-80,"Kalshi API still failing after 5 attempts: /historical/markets/KXRT-DEV-80/candlesticks {'start_ts': 1774965600, 'end_ts"
+KXRT-STR-10,"Kalshi API still failing after 5 attempts: /historical/markets/KXRT-STR-10/candlesticks {'start_ts': 1770051600, 'end_ts"
+KXRT-STR-60,"Kalshi API still failing after 5 attempts: /historical/markets/KXRT-STR-60/candlesticks {'start_ts': 1769958000, 'end_ts"
+KXRT-COY-97,"Kalshi API still failing after 5 attempts: /series/KXRT/markets/KXRT-COY-97/candlesticks {'start_ts': 1786574700, 'end_t"
+KXRT-UPR-55,"Kalshi API still failing after 5 attempts: /series/KXRT/markets/KXRT-UPR-55/candlesticks {'start_ts': 1788703200, 'end_t"
+KXRT-BUD-60,"Kalshi API still failing after 5 attempts: /series/KXRT/markets/KXRT-BUD-60/candlesticks {'start_ts': 1784683380, 'end_t"
+KXRT-DEV-85,"Kalshi API still failing after 5 attempts: /historical/markets/KXRT-DEV-85/candlesticks {'start_ts': 1774965600, 'end_ts"
+KXRT-BRIN-65,"Kalshi API still failing after 5 attempts: /series/KXRT/markets/KXRT-BRIN-65/candlesticks {'start_ts': 1784648100, 'end_"
+KXAAAGASM-25SEP30-3.10,Kalshi API still failing after 5 attempts: /historical/markets/KXAAAGASM-25SEP30-3.10/candlesticks {'start_ts': 17566488
+AAAGASM-24JUL31-US-3.45,Kalshi API still failing after 5 attempts: /historical/markets/AAAGASM-24JUL31-US-3.45/candlesticks {'start_ts': 1719756
+AAAGASM-24APR30-US-3.69,Kalshi API still failing after 5 attempts: /historical/markets/AAAGASM-24APR30-US-3.69/candlesticks {'start_ts': 1711893
+KXAAAGASM-26AUG31-4.70,Kalshi API still failing after 5 attempts: /series/KXAAAGASM/markets/KXAAAGASM-26AUG31-4.70/candlesticks {'start_ts': 17
+KXFED-26JUN-T4.00,"Kalshi API still failing after 5 attempts: /historical/markets/KXFED-26JUN-T4.00/candlesticks {'start_ts': 1754490600, '"
+FED-25JUN-T4.25,"Kalshi API still failing after 5 attempts: /historical/markets/FED-25JUN-T4.25/candlesticks {'start_ts': 1724248800, 'en"
+FED-23NOV-T5.75,"Kalshi API still failing after 5 attempts: /historical/markets/FED-23NOV-T5.75/candlesticks {'start_ts': 1698170100, 'en"
+FED-24MAR-T4.50,"Kalshi API still failing after 5 attempts: /historical/markets/FED-24MAR-T4.50/candlesticks {'start_ts': 1688652000, 'en"
+FED-23FEB-T4.75,"Kalshi API still failing after 5 attempts: /historical/markets/FED-23FEB-T4.75/candlesticks {'start_ts': 1660226400, 'en"
+KXINXY-25DEC31-B5700,Kalshi API still failing after 5 attempts: /historical/markets/KXINXY-25DEC31-B5700/candlesticks {'start_ts': 1766502000
+KXINXY-25DEC31-B4100,Kalshi API still failing after 5 attempts: /historical/markets/KXINXY-25DEC31-B4100/candlesticks {'start_ts': 1766502000
+KXHIGHDEN-26JUL09-B90.5,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHDEN-26JUL09-B90.5/candlesticks {'start_ts': 1783519
+KXHIGHDEN-25DEC25-T73,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHDEN-25DEC25-T73/candlesticks {'start_ts': 176658840
+KXHIGHDEN-26SEP10-B92.5,Kalshi API still failing after 5 attempts: /series/KXHIGHDEN/markets/KXHIGHDEN-26SEP10-B92.5/candlesticks {'start_ts': 1
+KXAAAGASW-26MAR23-3.770,Kalshi API still failing after 5 attempts: /historical/markets/KXAAAGASW-26MAR23-3.770/candlesticks {'start_ts': 1773676
+KXHIGHPHIL-26APR16-B89.5,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHPHIL-26APR16-B89.5/candlesticks {'start_ts': 177626
+KXHIGHPHIL-25NOV28-B42.5,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHPHIL-25NOV28-B42.5/candlesticks {'start_ts': 176425
+KXOSCARPIC-26-HAM,"Kalshi API still failing after 5 attempts: /historical/markets/KXOSCARPIC-26-HAM/candlesticks {'start_ts': 1772938669, '"
+OSCARPIC-22-DONT,"Kalshi API still failing after 5 attempts: /historical/markets/OSCARPIC-22-DONT/candlesticks {'start_ts': 1644332400, 'e"
+KXCPIYOY-26MAR-T4.0,"Kalshi API still failing after 5 attempts: /historical/markets/KXCPIYOY-26MAR-T4.0/candlesticks {'start_ts': 1775134823,"
+OSCARPIC-24-AOAF,"Kalshi API still failing after 5 attempts: /historical/markets/OSCARPIC-24-AOAF/candlesticks {'start_ts': 1699126200, 'e"
+KXCPIYOY-26JUN-T2.7,"Kalshi API still failing after 5 attempts: /historical/markets/KXCPIYOY-26JUN-T2.7/candlesticks {'start_ts': 1773439200,"
+KXCPIYOY-25JUL-T3.0,"Kalshi API still failing after 5 attempts: /historical/markets/KXCPIYOY-25JUL-T3.0/candlesticks {'start_ts': 1749736800,"
+CPIYOY-23AUG-T3.7,"Kalshi API still failing after 5 attempts: /historical/markets/CPIYOY-23AUG-T3.7/candlesticks {'start_ts': 1693916700, '"
+KXNASDAQ100Y-25DEC31-B21250,Kalshi API still failing after 5 attempts: /historical/markets/KXNASDAQ100Y-25DEC31-B21250/candlesticks {'start_ts': 173
+NASDAQ100Y-23DEC29-B10250,Kalshi API still failing after 5 attempts: /historical/markets/NASDAQ100Y-23DEC29-B10250/candlesticks {'start_ts': 16709
+NASDAQ100Y-22DEC30-B9250,Kalshi API still failing after 5 attempts: /historical/markets/NASDAQ100Y-22DEC30-B9250/candlesticks {'start_ts': 167174
+KXRAIN-26SEP19-DAL,Kalshi API still failing after 5 attempts: /series/KXRAIN/markets/KXRAIN-26SEP19-DAL/candlesticks {'start_ts': 178972260
+NASDAQ100Y-22DEC30-B12750,Kalshi API still failing after 5 attempts: /historical/markets/NASDAQ100Y-22DEC30-B12750/candlesticks {'start_ts': 16571
+KXRAIN-26SEP12-NYC,Kalshi API still failing after 5 attempts: /series/KXRAIN/markets/KXRAIN-26SEP12-NYC/candlesticks {'start_ts': 178911780
+NASDAQ100Y-24DEC31-B17750,Kalshi API still failing after 5 attempts: /historical/markets/NASDAQ100Y-24DEC31-B17750/candlesticks {'start_ts': 16886
+KXRAIN-26AUG28-PHIL,Kalshi API still failing after 5 attempts: /series/KXRAIN/markets/KXRAIN-26AUG28-PHIL/candlesticks {'start_ts': 17878218
+KXRAIN-26AUG11-AUS,Kalshi API still failing after 5 attempts: /series/KXRAIN/markets/KXRAIN-26AUG11-AUS/candlesticks {'start_ts': 178635300
+KXRAIN-26AUG10-DAL,Kalshi API still failing after 5 attempts: /series/KXRAIN/markets/KXRAIN-26AUG10-DAL/candlesticks {'start_ts': 178626660
+KXRAIN-26JUL28-NOLA,Kalshi API still failing after 5 attempts: /series/KXRAIN/markets/KXRAIN-26JUL28-NOLA/candlesticks {'start_ts': 17851434
+KXSENATEMID-26-AELS,Kalshi API still failing after 5 attempts: /series/KXSENATEMID/markets/KXSENATEMID-26-AELS/candlesticks {'start_ts': 174
+KXVOTEPRIMARY-GOVORNOMR26CDRACDRA-42,Kalshi API still failing after 5 attempts: /historical/markets/KXVOTEPRIMARY-GOVORNOMR26CDRACDRA-42/candlesticks {'start
+KXVOTEPRIMARY-FLPRIMARY22R26BKEI-15,Kalshi API still failing after 5 attempts: /series/KXVOTEPRIMARY/markets/KXVOTEPRIMARY-FLPRIMARY22R26BKEI-15/candlestick
+KXVOTEPRIMARY-FL19R26JSCH-20,Kalshi API still failing after 5 attempts: /series/KXVOTEPRIMARY/markets/KXVOTEPRIMARY-FL19R26JSCH-20/candlesticks {'sta
+KXVOTEPRIMARY-FLPRIMARY25D26JMOS-50,Kalshi API still failing after 5 attempts: /series/KXVOTEPRIMARY/markets/KXVOTEPRIMARY-FLPRIMARY25D26JMOS-50/candlestick
+KXWTIW-26MAY15-B91.5,Kalshi API still failing after 5 attempts: /historical/markets/KXWTIW-26MAY15-B91.5/candlesticks {'start_ts': 1778283000
+KXCPI-26APR-T0.6,"Kalshi API still failing after 5 attempts: /historical/markets/KXCPI-26APR-T0.6/candlesticks {'start_ts': 1773853200, 'e"
+KXCPI-25MAY-T0.0,"Kalshi API still failing after 5 attempts: /historical/markets/KXCPI-25MAY-T0.0/candlesticks {'start_ts': 1744380000, 'e"
+CPI-23MAR-T0.3,"Kalshi API still failing after 5 attempts: /historical/markets/CPI-23MAR-T0.3/candlesticks {'start_ts': 1667401200, 'end"
+CPI-23FEB-T0.2,"Kalshi API still failing after 5 attempts: /historical/markets/CPI-23FEB-T0.2/candlesticks {'start_ts': 1667401200, 'end"
+CPI-22JUN-T0.8,"Kalshi API still failing after 5 attempts: /historical/markets/CPI-22JUN-T0.8/candlesticks {'start_ts': 1648044000, 'end"
+CPI-21DEC-T0.7,"Kalshi API still failing after 5 attempts: /historical/markets/CPI-21DEC-T0.7/candlesticks {'start_ts': 1639148400, 'end"
+CPI-21DEC-T0.6,"Kalshi API still failing after 5 attempts: /historical/markets/CPI-21DEC-T0.6/candlesticks {'start_ts': 1641272340, 'end"
+TIME-24-JR,"Kalshi API still failing after 5 attempts: /historical/markets/TIME-24-JR/candlesticks {'start_ts': 1733761854, 'end_ts'"
+TIME-24-KM,"Kalshi API still failing after 5 attempts: /historical/markets/TIME-24-KM/candlesticks {'start_ts': 1733761813, 'end_ts'"
+KXSPOTIFYD-24OCT31-APT,Kalshi API still failing after 5 attempts: /historical/markets/KXSPOTIFYD-24OCT31-APT/candlesticks {'start_ts': 17303364
+KXPAYROLLS-26MAR-T20000,Kalshi API still failing after 5 attempts: /historical/markets/KXPAYROLLS-26MAR-T20000/candlesticks {'start_ts': 1774528
+PAYROLLS-24FEB-T399999,Kalshi API still failing after 5 attempts: /historical/markets/PAYROLLS-24FEB-T399999/candlesticks {'start_ts': 17092131
+PAYROLLS-24APR-T303000,Kalshi API still failing after 5 attempts: /historical/markets/PAYROLLS-24APR-T303000/candlesticks {'start_ts': 17123202
+KXPAYROLLS-26AUG-T150000,Kalshi API still failing after 5 attempts: /series/KXPAYROLLS/markets/KXPAYROLLS-26AUG-T150000/candlesticks {'start_ts':
+KXHIGHTSFO-26MAY11-B72.5,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHTSFO-26MAY11-B72.5/candlesticks {'start_ts': 177842
+KXHIGHTSFO-26JAN24-T64,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHTSFO-26JAN24-T64/candlesticks {'start_ts': 17691804
+KXNETFLIXRANKSHOW-26JUN29-THEF,Kalshi API still failing after 5 attempts: /historical/markets/KXNETFLIXRANKSHOW-26JUN29-THEF/candlesticks {'start_ts': 
+KXNETFLIXRANKSHOW-26MAR23-THE,Kalshi API still failing after 5 attempts: /historical/markets/KXNETFLIXRANKSHOW-26MAR23-THE/candlesticks {'start_ts': 1
+KXBRENTD-26JUL2217-T90,Kalshi API still failing after 5 attempts: /historical/markets/KXBRENTD-26JUL2217-T90/candlesticks {'start_ts': 17846244
+KXBRENTD-26JUL2117-T87.50,Kalshi API still failing after 5 attempts: /historical/markets/KXBRENTD-26JUL2117-T87.50/candlesticks {'start_ts': 17845
+KXBRENTD-26JUN2317-T75,Kalshi API still failing after 5 attempts: /historical/markets/KXBRENTD-26JUN2317-T75/candlesticks {'start_ts': 17821188
+KXBRENTD-26APR0617-T109.50,Kalshi API still failing after 5 attempts: /historical/markets/KXBRENTD-26APR0617-T109.50/candlesticks {'start_ts': 1775
+KXBRENTD-26AUG1317-T88.50,Kalshi API still failing after 5 attempts: /series/KXBRENTD/markets/KXBRENTD-26AUG1317-T88.50/candlesticks {'start_ts': 
+KXBRENTD-26AUG1317-T86,Kalshi API still failing after 5 attempts: /series/KXBRENTD/markets/KXBRENTD-26AUG1317-T86/candlesticks {'start_ts': 178
+KXLIUSAELIMINATIONW-26JUL03-ANI,Kalshi API still failing after 5 attempts: /historical/markets/KXLIUSAELIMINATIONW-26JUL03-ANI/candlesticks {'start_ts':
+KXLIUSAELIMINATIONW-26JUN26B-ZAC,Kalshi API still failing after 5 attempts: /historical/markets/KXLIUSAELIMINATIONW-26JUN26B-ZAC/candlesticks {'start_ts'
+KXHIGHTSEA-26JUL21-B90.5,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHTSEA-26JUL21-B90.5/candlesticks {'start_ts': 178455
+KXHIGHTSEA-26APR17-T62,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHTSEA-26APR17-T62/candlesticks {'start_ts': 17763480
+KXHIGHTATL-26JUN29-T93,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHTATL-26JUN29-T93/candlesticks {'start_ts': 17826552
+KXHIGHTATL-26JUL27-T90,Kalshi API still failing after 5 attempts: /series/KXHIGHTATL/markets/KXHIGHTATL-26JUL27-T90/candlesticks {'start_ts': 1
+KXHIGHTBOS-26FEB26-B34.5,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHTBOS-26FEB26-B34.5/candlesticks {'start_ts': 177203
+KXGDP-25JUL30-T4.5,"Kalshi API still failing after 5 attempts: /historical/markets/KXGDP-25JUL30-T4.5/candlesticks {'start_ts': 1748881555, "
+KXGDP-25JUL30-T-1.5,"Kalshi API still failing after 5 attempts: /historical/markets/KXGDP-25JUL30-T-1.5/candlesticks {'start_ts': 1745977514,"
+KXGDP-25JAN31-T2.0,"Kalshi API still failing after 5 attempts: /historical/markets/KXGDP-25JAN31-T2.0/candlesticks {'start_ts': 1737552788, "
+KXHIGHTDAL-26MAR20-T98,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHTDAL-26MAR20-T98/candlesticks {'start_ts': 17739288
+KXLOWTNYC-26MAR19-B31.5,Kalshi API still failing after 5 attempts: /historical/markets/KXLOWTNYC-26MAR19-B31.5/candlesticks {'start_ts': 1773842
+KXGOLDD-26JUN0817-T4303,Kalshi API still failing after 5 attempts: /historical/markets/KXGOLDD-26JUN0817-T4303/candlesticks {'start_ts': 1780650
+KXGOLDD-26MAY2717-T4471,Kalshi API still failing after 5 attempts: /historical/markets/KXGOLDD-26MAY2717-T4471/candlesticks {'start_ts': 1779786
+KXGOLDD-26AUG2417-T4548,Kalshi API still failing after 5 attempts: /series/KXGOLDD/markets/KXGOLDD-26AUG2417-T4548/candlesticks {'start_ts': 178
+KXGOLDD-26JUL2917-T4135,Kalshi API still failing after 5 attempts: /series/KXGOLDD/markets/KXGOLDD-26JUL2917-T4135/candlesticks {'start_ts': 178
+KXHIGHTDC-26JUL01-T101,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHTDC-26JUL01-T101/candlesticks {'start_ts': 17828280
+KXHIGHTDC-26MAY22-T60,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHTDC-26MAY22-T60/candlesticks {'start_ts': 177937200
+KXNETFLIXRANKMOVIE-25DEC08-SEA,Kalshi API still failing after 5 attempts: /historical/markets/KXNETFLIXRANKMOVIE-25DEC08-SEA/candlesticks {'start_ts': 
+KXU3-26APR-T4.7,"Kalshi API still failing after 5 attempts: /historical/markets/KXU3-26APR-T4.7/candlesticks {'start_ts': 1775228400, 'en"
+KXU3-26APR-T4.0,"Kalshi API still failing after 5 attempts: /historical/markets/KXU3-26APR-T4.0/candlesticks {'start_ts': 1775228400, 'en"
+KXU3-26FEB-T3.9,"Kalshi API still failing after 5 attempts: /historical/markets/KXU3-26FEB-T3.9/candlesticks {'start_ts': 1772112300, 'en"
+U3-23DEC-T3.8,"Kalshi API still failing after 5 attempts: /historical/markets/U3-23DEC-T3.8/candlesticks {'start_ts': 1702045204, 'end_"
+U3-22SEP-T4.2,"Kalshi API still failing after 5 attempts: /historical/markets/U3-22SEP-T4.2/candlesticks {'start_ts': 1655388000, 'end_"
+U3-22OCT-T3.6,"Kalshi API still failing after 5 attempts: /historical/markets/U3-22OCT-T3.6/candlesticks {'start_ts': 1655388000, 'end_"
+TNOTEW-24JUN14-B4.26,Kalshi API still failing after 5 attempts: /historical/markets/TNOTEW-24JUN14-B4.26/candlesticks {'start_ts': 1717792200
+KXHIGHTHOU-26MAR06-B86.5,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHTHOU-26MAR06-B86.5/candlesticks {'start_ts': 177272
+OSCARNOMPIC-25-JFAD,"Kalshi API still failing after 5 attempts: /historical/markets/OSCARNOMPIC-25-JFAD/candlesticks {'start_ts': 1709643600,"
+KXLOWTDEN-26JUN11-B56.5,Kalshi API still failing after 5 attempts: /historical/markets/KXLOWTDEN-26JUN11-B56.5/candlesticks {'start_ts': 1781100
+KXLOWTDEN-26FEB16-B34.5,Kalshi API still failing after 5 attempts: /historical/markets/KXLOWTDEN-26FEB16-B34.5/candlesticks {'start_ts': 1771167
+KXLOWTDEN-25DEC22-B36.5,Kalshi API still failing after 5 attempts: /historical/markets/KXLOWTDEN-25DEC22-B36.5/candlesticks {'start_ts': 1766329
+KXHIGHTMIN-26JUL02-B91.5,Kalshi API still failing after 5 attempts: /historical/markets/KXHIGHTMIN-26JUL02-B91.5/candlesticks {'start_ts': 178291
