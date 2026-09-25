@@ -1,0 +1,151 @@
+family,category,ticker,title,frequency,fee_type,fee_multiplier,volume,label,reason
+sports,Sports,KXNBAGAME,NBA Game,custom,quadratic_with_maker_fees,1.0,11676050279.0,fixed-date,automatic rule
+sports,Sports,KXMLBGAME,Professional Baseball Game,custom,quadratic_with_maker_fees,0.5,9973157817.0,fixed-date,automatic rule
+sports,Sports,KXATPMATCH,ATP Tennis Match,custom,quadratic_with_maker_fees,1.0,6981098210.0,fixed-date,automatic rule
+sports,Sports,KXNFLGAME,Professional Football Game,custom,quadratic_with_maker_fees,1.0,6278195330.0,fixed-date,automatic rule
+sports,Sports,KXATPCHALLENGERMATCH,Challenger ATP ,custom,quadratic,1.0,5967851253.0,fixed-date,single match
+sports,Sports,KXNCAAMBGAME,Men's College Basketball Men's Game,custom,quadratic_with_maker_fees,1.0,5936932933.0,fixed-date,automatic rule
+sports,Sports,KXNCAAFGAME,College Football Game,custom,quadratic_with_maker_fees,1.0,5060232150.0,fixed-date,automatic rule
+sports,Sports,KXWTAMATCH,WTA Tennis Match,custom,quadratic_with_maker_fees,1.0,4580366504.0,fixed-date,automatic rule
+sports,Sports,KXWCGAME,World Cup Game,custom,quadratic_with_maker_fees,1.0,4494733439.0,fixed-date,automatic rule
+sports,Sports,KXPGATOUR,PGA Tour,custom,quadratic_with_maker_fees,1.0,3881063693.0,multi-stage,players cut during the tournament
+sports,Sports,KXITFMATCH,ITF Men's Match,custom,quadratic,1.0,3352434803.0,fixed-date,automatic rule
+sports,Sports,KXITFWMATCH,ITF Women's Match,custom,quadratic,1.0,3215602053.0,fixed-date,automatic rule
+sports,Sports,KXWCADVANCE,World Cup Advance,custom,quadratic,1.0,2502023069.0,multi-stage,can be decided before the last group game
+sports,Sports,KXMLBTOTAL,Pro Baseball Total Points,custom,quadratic,0.5,2427205478.0,fixed-date,automatic rule
+sports,Sports,KXNBASPREAD,NBA Spread,custom,quadratic_with_maker_fees,1.0,1590362212.0,fixed-date,automatic rule
+sports,Sports,KXNHLGAME,NHL Game,custom,quadratic_with_maker_fees,1.0,1570086464.0,fixed-date,automatic rule
+sports,Sports,KXMENWORLDCUP,Men's World Cup winner,custom,quadratic_with_maker_fees,1.0,1540161824.0,multi-stage,teams eliminated before the final
+sports,Sports,KXMLBSPREAD,Pro Baseball Spread,custom,quadratic,0.5,1363174693.0,fixed-date,automatic rule
+sports,Sports,KXUFCFIGHT,UFC Fight,custom,quadratic,1.0,1343632350.0,fixed-date,automatic rule
+sports,Sports,KXNBATOTAL,NBA Total,custom,quadratic_with_maker_fees,1.0,1331875601.0,fixed-date,automatic rule
+sports,Sports,KXWNBAGAME,Women's Pro Basketball Game,custom,quadratic_with_maker_fees,1.0,1119162340.0,fixed-date,automatic rule
+sports,Sports,KXWTACHALLENGERMATCH,Challenger WTA,custom,quadratic,1.0,1106753238.0,fixed-date,single match
+sports,Sports,KXIPLGAME,Indian Premier League Cricket Game,custom,quadratic,1.0,1048617590.0,fixed-date,automatic rule
+sports,Sports,KXWCSCORE,World Cup Correct Score,custom,quadratic,1.0,1019572887.0,fixed-date,single match score
+sports,Sports,KXNFLSPREAD,Pro Football Spread,custom,quadratic_with_maker_fees,1.0,1012045375.0,fixed-date,automatic rule
+economics,Economics,KXFEDDECISION,Fed meeting,custom,quadratic_with_maker_fees,1.0,612389510.0,fixed-date,scheduled FOMC meeting
+politics,Politics,PRES,Presidential elections,custom,quadratic,1.0,535948943.0,fixed-date,election day
+politics,Elections,KXPRESNOMD,Democratic Primary winner,custom,quadratic,1.0,223629927.0,multi-stage,candidates drop out during the primaries
+politics,Politics,KXFEDCHAIRNOM,Fed Chair nominee,custom,quadratic,1.0,216970762.0,deadline,resolves when the nomination is made
+weather,Climate and Weather,KXHIGHLAX,Highest temperature in Los Angeles,daily,quadratic,1.0,168395217.0,fixed-date,automatic rule
+weather,Climate and Weather,KXHIGHNY,Highest temperature in NYC,daily,quadratic,1.0,145347423.0,fixed-date,automatic rule
+politics,Elections,POPVOTEMOV,Popular vote margin of victory,custom,quadratic,1.0,134967718.0,fixed-date,election day
+economics,Financials,KXINX,S&P 500 range,daily,quadratic,1.0,134314530.0,fixed-date,automatic rule
+politics,Politics,KXMAYORNYCPARTY,Mayor of NYC party winner,custom,quadratic,1.0,121642553.0,fixed-date,election day
+politics,Politics,KXGOVSHUTLENGTH,Number of days of government shutdown?,custom,quadratic,1.0,120044322.0,deadline,automatic rule
+culture,Entertainment,KXFIRSTSUPERBOWLSONG,What will be the first Super Bowl Song played during halfitme?,one_off,quadratic,1.0,113517455.0,fixed-date,halftime show date
+weather,Climate and Weather,KXHIGHCHI,Highest temperature in Chicago,daily,quadratic,1.0,110564794.0,fixed-date,automatic rule
+economics,Financials,KXNASDAQ100,Nasdaq range,daily,quadratic,1.0,107375393.0,fixed-date,automatic rule
+weather,Climate and Weather,KXHIGHMIA,Highest temperature in Miami,daily,quadratic,1.0,99839513.0,fixed-date,automatic rule
+economics,Commodities,KXWTI,WTI oil on day,daily,quadratic,1.0,99782887.0,fixed-date,automatic rule
+politics,Elections,KXMAYORLA,LA,one_off,quadratic,1.0,95810762.0,fixed-date,election day
+politics,Elections,ECMOV,Electoral college margin of victory,custom,quadratic,1.0,86314861.0,fixed-date,election day
+politics,Elections,POPVOTEMOVSMALL,Popular vote margin of victory small,custom,quadratic,1.0,84757997.0,fixed-date,election day
+politics,Politics,POPVOTE,Popular vote winner,custom,quadratic,1.0,81933515.0,fixed-date,election day
+weather,Climate and Weather,KXHIGHAUS,Highest temperature in Austin,daily,quadratic,1.0,77536568.0,fixed-date,automatic rule
+politics,Elections,KXGOVFLNOMR,Florida Governor Republican nominee,custom,quadratic,1.0,71017463.0,fixed-date,primary election day
+politics,Politics,KXGOVSHUT,Government shutdown,custom,quadratic,1.0,68855964.0,deadline,automatic rule
+politics,Elections,KXPRESPERSON,Pres person,custom,quadratic,1.0,68298879.0,fixed-date,election day
+culture,Entertainment,KXRT,Rotten Tomatoes Scores,custom,quadratic,1.0,65696021.0,fixed-date,score read on a set date
+politics,Elections,KXPRESNOMR,Republican Primary winner,custom,quadratic,1.0,65695652.0,multi-stage,candidates drop out during the primaries
+economics,Economics,KXAAAGASM,US gas price,monthly,quadratic_with_maker_fees,1.0,61207029.0,fixed-date,automatic rule
+economics,Economics,KXFED,Fed funds rate,custom,quadratic_with_maker_fees,1.0,59389633.0,fixed-date,scheduled FOMC meeting
+economics,Financials,KXINXY,S&P 500 yearly range,annual,quadratic_with_maker_fees,1.0,56845607.0,fixed-date,end-of-year close
+politics,Elections,KXKHAMENEIOUT,Ali Khamenei out?,one_off,quadratic,1.0,54513052.0,deadline,resolves when it happens
+politics,Elections,KXGOVCA,California Governor's race,custom,quadratic,1.0,52484771.0,fixed-date,election day
+weather,Climate and Weather,KXHIGHDEN,Highest temperature in Denver,daily,quadratic,1.0,51024091.0,fixed-date,automatic rule
+economics,Economics,KXAAAGASW,US gas price up,weekly,quadratic,1.0,49489538.0,fixed-date,automatic rule
+culture,Entertainment,KXPERFORMSUPERBOWLB,Who will perform at the Super Bowl,annual,quadratic,1.0,47345230.0,deadline,resolves when the performer is announced
+politics,Politics,KXHORMUZNORM,When will traffic at the Strait of Hormuz return to normal?,one_off,quadratic,1.0,44292513.0,deadline,resolves when it happens
+weather,Climate and Weather,KXHIGHPHIL,Highest temperature in Philadelphia,daily,quadratic,1.0,41695704.0,fixed-date,automatic rule
+culture,Entertainment,KXSBGUESTS,Super Bowl guests,custom,quadratic,1.0,40270790.0,fixed-date,halftime show date
+culture,Entertainment,KXOSCARPIC,Oscar for Best Picture,annual,quadratic,1.0,38744252.0,fixed-date,ceremony date
+crypto,Crypto,KXBTCMAXY,How high will Bitcoin get this year?,annual,quadratic,1.0,38437980.0,deadline,automatic rule
+politics,Elections,CONTROLH,House winner,custom,quadratic,1.0,38084573.0,fixed-date,election day
+crypto,Crypto,KXBTCY,BTC price range EOY,annual,quadratic,0.0,37648568.0,fixed-date,end-of-year price
+politics,Elections,POPVOTEMOVSMALLER,Popular vote margin of victory small,custom,quadratic,1.0,37209372.0,fixed-date,election day
+economics,Economics,KXRATECUTCOUNT,Number of rate cuts,annual,quadratic_with_maker_fees,1.0,37097598.0,deadline,thresholds hit before year end
+crypto,Crypto,KXBTCMAX150,When will bitcoin hit 150k?,custom,quadratic_with_maker_fees,1.0,36555034.0,deadline,touch market
+economics,Economics,KXCPIYOY,Inflation,monthly,quadratic_with_maker_fees,1.0,36310704.0,fixed-date,automatic rule
+economics,Financials,KXNASDAQ100Y,Nasdaq yearly range,annual,quadratic_with_maker_fees,1.0,35975844.0,fixed-date,end-of-year close
+politics,Elections,SENATEAZ,Arizona Senate race,custom,quadratic,1.0,35509884.0,fixed-date,election day
+culture,Entertainment,KXSURVIVOR,Who will win Survivor,one_off,quadratic,1.0,35075240.0,multi-stage,contestants eliminated during the season
+weather,Climate and Weather,KXRAIN,Where will it rain daily,daily,quadratic,1.0,34683781.0,fixed-date,automatic rule
+economics,Economics,KXLAYOFFSYINFO,Tech layoffs,annual,quadratic,0.0,31984572.0,deadline,thresholds hit before year end
+politics,Elections,KXSENATEMID,MID,one_off,quadratic,1.0,31496913.0,fixed-date,election day
+politics,Politics,KXGOVTSHUTDOWN,Will the government shut down?,one_off,quadratic,1.0,30849472.0,deadline,resolves when a shutdown starts
+weather,Climate and Weather,KXRAINNYC,NYC rain,daily,quadratic,1.0,30548636.0,fixed-date,automatic rule
+politics,Elections,KXVOTEPRIMARY,Vote percentages in primaries,one_off,quadratic,1.0,29841281.0,fixed-date,primary election day
+politics,Politics,PRESPARTYFULL,Popular vote/Electoral College winner,custom,quadratic,1.0,28921006.0,fixed-date,election day
+politics,Elections,POWER,Party power,custom,quadratic,1.0,28849677.0,fixed-date,election day
+economics,Economics,KXAAAGASD,US gas price up,daily,quadratic,1.0,28403240.0,fixed-date,automatic rule
+culture,Entertainment,KXOSCARACTO,Oscar for Best Actor,annual,quadratic,1.0,28007165.0,fixed-date,ceremony date
+crypto,Crypto,KXBTCMINY,How low will Bitcoin fall this year?,annual,quadratic,1.0,26799745.0,deadline,automatic rule
+economics,Economics,KXCITRINI,Will the Citrini scenario materialize?,one_off,quadratic,0.0,25927417.0,deadline,resolves when it happens
+crypto,Crypto,KXBTCMAXMON,Bitcoin monthly one touch,monthly,quadratic,1.0,25889279.0,deadline,touch market
+economics,Commodities,KXWTIW,WTI oil weekly range,weekly,quadratic,1.0,24787439.0,fixed-date,automatic rule
+economics,Economics,KXCPI,CPI,monthly,quadratic_with_maker_fees,1.0,24226023.0,fixed-date,automatic rule
+culture,Entertainment,KXTIME,TIME’s Person of the Year,annual,quadratic,1.0,22544588.0,fixed-date,scheduled announcement
+crypto,Crypto,KXETHMAXY,How high will Ethereum get this year?,annual,quadratic,1.0,21891182.0,deadline,automatic rule
+culture,Entertainment,KXSPOTIFYD,Daily US Spotify chart,daily,quadratic,1.0,21770105.0,fixed-date,automatic rule
+culture,Entertainment,KXTOPARTIST,Top Artist on Spotify,annual,quadratic,1.0,20876190.0,fixed-date,year-end ranking
+culture,Entertainment,KXRANKLISTGOOGLESEARCH,#1 most searched on google,one_off,quadratic,1.0,20288736.0,fixed-date,year-end ranking
+culture,Entertainment,KXLIUSAELIMINATION,who will be eliminated,one_off,quadratic,1.0,20222633.0,fixed-date,single episode
+economics,Economics,KXPAYROLLS,Jobs numbers,monthly,quadratic_with_maker_fees,1.0,19091564.0,fixed-date,automatic rule
+weather,Climate and Weather,KXHIGHTSFO,San Francisco High Temperature Daily,daily,quadratic,1.0,18185971.0,fixed-date,automatic rule
+culture,Entertainment,KXNETFLIXRANKSHOW,Netflix TV ranking,weekly,quadratic,1.0,17422718.0,fixed-date,automatic rule
+economics,Commodities,KXBRENTD,Brent Oil Daily,daily,quadratic,1.0,17389457.0,fixed-date,automatic rule
+culture,Entertainment,KXLIUSAELIMINATIONW,who will be eliminated this week,one_off,quadratic,1.0,17157142.0,fixed-date,single episode
+weather,Climate and Weather,KXHIGHTPHX,Phoenix High Temperature Daily,daily,quadratic,1.0,17053073.0,fixed-date,automatic rule
+weather,Climate and Weather,KXHIGHTSEA,Seattle Maximum Temperature Daily,daily,quadratic,1.0,16745938.0,fixed-date,automatic rule
+weather,Climate and Weather,KXHIGHTATL,Atlanta Max Temperature,daily,quadratic,1.0,16236041.0,fixed-date,automatic rule
+weather,Climate and Weather,KXHIGHTBOS,Boston Maximum Daily Temperature,daily,quadratic,1.0,15862144.0,fixed-date,automatic rule
+culture,Entertainment,KXLIUSACOUPLE,which couple will win love island usa,one_off,quadratic,1.0,15852076.0,multi-stage,couples eliminated during the season
+crypto,Crypto,KXBTCMAX100,When will bitcoin hit 100k?,annual,quadratic,1.0,15688118.0,deadline,touch market
+economics,Economics,KXGDP,US GDP growth,custom,quadratic_with_maker_fees,1.0,14883106.0,fixed-date,scheduled data release
+crypto,Crypto,KXBTCMAX125,When will bitcoin hit 125k?,custom,quadratic_with_maker_fees,1.0,14561675.0,deadline,touch market
+weather,Climate and Weather,KXHIGHTDAL,Dallas Maximum Temperature,daily,quadratic,1.0,13419637.0,fixed-date,automatic rule
+weather,Climate and Weather,KXLOWTNYC,Lowest temperature in NYC,daily,quadratic,1.0,13353517.0,fixed-date,automatic rule
+economics,Commodities,KXGOLDD,Gold Daily,daily,quadratic,1.0,13190707.0,fixed-date,automatic rule
+weather,Climate and Weather,KXHIGHTDC,Washington DC Daily Max Temp,daily,quadratic,1.0,12854582.0,fixed-date,automatic rule
+weather,Climate and Weather,KXHIGHTLV,Las Vegas Max Daily Temperature,daily,quadratic,1.0,12638599.0,fixed-date,automatic rule
+economics,Economics,KXGOVTCUTS,Government budget cuts,custom,quadratic,1.0,12591910.0,deadline,thresholds hit before year end
+culture,Entertainment,KXALBUMSALES,HOW MANY ALBUM SALES WILL PERSON SELL,one_off,quadratic,1.0,12504075.0,deadline,thresholds hit before the end date
+crypto,Crypto,KXETHY,ETH price EOY ,annual,quadratic,0.0,12152491.0,fixed-date,end-of-year price
+crypto,Crypto,KXBTCMINMON,BTC one touch minimum,monthly,quadratic,1.0,11739059.0,deadline,touch market
+culture,Entertainment,KXNETFLIXRANKMOVIE,Netflix movie ranking,weekly,quadratic,1.0,11724892.0,fixed-date,automatic rule
+economics,Commodities,KXWTIMAX,WTI oil high,annual,quadratic,1.0,11684921.0,deadline,touch market
+economics,Economics,KXU3,Unemployment,monthly,quadratic_with_maker_fees,1.0,11276525.0,fixed-date,automatic rule
+economics,Economics,KXRATECUT,Fed rate cut,annual,quadratic,1.0,11100783.0,deadline,resolves at the first cut
+culture,Entertainment,KXRANKLISTSONGSPOTUSA,WHO WIL HAVE A #1 song on Spotify ,monthly,quadratic,1.0,11045502.0,fixed-date,automatic rule
+economics,Financials,KXTNOTEW,Treasury 10Y weekly yield,weekly,quadratic,1.0,10678175.0,fixed-date,automatic rule
+weather,Climate and Weather,KXSNOWSTORM,Snowstorms,one_off,quadratic,1.0,10567143.0,deadline,"unclear contract, excluded to be safe"
+weather,Climate and Weather,KXHIGHTHOU,Daily High Temperature Houston,daily,quadratic,1.0,10221671.0,fixed-date,automatic rule
+culture,Entertainment,KXOSCARNOMPIC,Oscar nominations for Best Picture,annual,quadratic,1.0,10195152.0,fixed-date,nominations announcement date
+crypto,Crypto,KXBTC2025100,Will Bitcoin reach 100k again this year? ,one_off,quadratic,1.0,10016515.0,deadline,automatic rule
+culture,Entertainment,KXTOPALBUMRECORD,Album record,custom,quadratic,1.0,9981781.0,deadline,record can be broken early
+weather,Climate and Weather,KXLOWTAUS,Lowest temperature in Austin,daily,quadratic,1.0,9804115.0,fixed-date,automatic rule
+weather,Climate and Weather,KXLOWTDEN,Lowest temperature in Denver,daily,quadratic,1.0,9665489.0,fixed-date,automatic rule
+weather,Climate and Weather,KXHIGHTMIN,Minneapolis Daily High Temperature,daily,quadratic,1.0,9564571.0,fixed-date,automatic rule
+weather,Climate and Weather,KXLOWTCHI,Lowest Temperature Chicago,daily,quadratic,1.0,9490194.0,fixed-date,automatic rule
+weather,Climate and Weather,KXLOWTMIA,Lowest temperature in Miami,daily,quadratic,1.0,9467969.0,fixed-date,automatic rule
+crypto,Crypto,KXBTC2026200,Will Bitcoin hit 200k in 2026? ,one_off,quadratic,1.0,9404360.0,deadline,touch market
+crypto,Crypto,KXETHMINY,How low will Ethereum fall this year?,annual,quadratic,1.0,9315366.0,deadline,automatic rule
+culture,Entertainment,KXGRAMSOTY,Grammy for Song of the Year,annual,quadratic,1.0,8971596.0,fixed-date,ceremony date
+culture,Entertainment,KXOSCARACTR,Oscar for Best Actress,annual,quadratic,1.0,8822037.0,fixed-date,ceremony date
+culture,Entertainment,KXNETFLIXRANKSHOWRUNNERUP,RUNNER UP NETFLIX SHOW,weekly,quadratic,1.0,8293790.0,fixed-date,automatic rule
+culture,Entertainment,KXOSCARSUPACTO,Oscar for Best Supporting Actor,annual,quadratic,1.0,8067648.0,fixed-date,ceremony date
+culture,Entertainment,KXDANCINGWITHTHESTARS,Who will win dancing with the stars?,one_off,quadratic,1.0,7749228.0,multi-stage,contestants eliminated during the season
+crypto,Crypto,KXETHMAXMON,ETH Monthly One touch,monthly,quadratic,1.0,3572600.0,deadline,touch market
+crypto,Crypto,KXXRPMAXMON,XRP Max Monthly,monthly,quadratic,1.0,2423695.0,deadline,touch market
+crypto,Crypto,KXBTCMAXM,How high will Bitcoin get this month?,monthly,quadratic,1.0,2242109.0,deadline,touch market
+crypto,Crypto,KXSHIBA,Shiba range,daily,quadratic,1.0,1950384.0,fixed-date,automatic rule
+crypto,Crypto,KXCRYPTORETURNY,Crypto being positive,annual,quadratic,1.0,1878859.0,fixed-date,end-of-year return
+crypto,Crypto,KXSOLMAXMON,SOL Monthly One touch ,monthly,quadratic,1.0,1676462.0,deadline,touch market
+crypto,Crypto,KXDOGEMAX1,Dogecoin hitting $1,custom,quadratic,1.0,1470064.0,deadline,touch market
+crypto,Crypto,KXXRPMAXY,XRP Max,annual,quadratic,1.0,1430142.0,deadline,touch market
+crypto,Crypto,KXETHMINMON,ETH min one touch monthly,monthly,quadratic,1.0,1396194.0,deadline,touch market
+crypto,Crypto,KXBTC50VS100,Will BTC fall below 50k before hitting 100k?,one_off,quadratic,1.0,1394913.0,deadline,automatic rule
+crypto,Crypto,KXBNBMINMON,BNB Min Monthly,monthly,quadratic,1.0,1368957.0,deadline,touch market
+crypto,Crypto,KXBTC2026250,Will Bitcoin hit 250k in 2026? ,one_off,quadratic,1.0,1236021.0,deadline,touch market
