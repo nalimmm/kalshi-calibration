@@ -2,38 +2,67 @@
 
 When a Kalshi contract trades at 70 cents, does the event happen 70% of the time?
 This project measures where, when and why Kalshi prices deviate from realized
-frequencies, and whether those deviations survive fees and the cost of capital.
+frequencies, and whether those deviations survive the spread and fees.
+
+**12,970 price observations in 1,979 events**, drawn from 184,383 settled markets
+across sports, economics, weather, culture and politics. Full report:
+[`WRITEUP.md`](WRITEUP.md). One-page summary: [`ONE_PAGER.md`](ONE_PAGER.md).
 
 We exclude Polymarket due to French regulation.
 
-## Key findings (provisional, validation sample)
+## Key findings
 
-- **Calibrated one day out.** At T-1d the calibration slope is 1.05 [0.89, 1.29]: prices match realized frequencies, and every robustness variant agrees.
-- **The near-resolution bias is a tick-size artifact.** At T-1h, 915 contracts quoted at 1 cent never won: prices cannot fall below the 1-cent floor. Without extreme prices, the bias is no longer significant.
-- **Sports is the exception, and fees eat it.** Sports favorites are underpriced (slope 1.48 [1.07, 2.21]), but backing them earns +1.75 cents per contract at the midpoint and -0.13 cents after the spread and taker fees.
-- **The floor rent goes to makers.** Almost no floor quote has a Yes bid, so a taker cannot collect the cent; only a market maker posting offers at 1 cent can.
+**1. One day before resolution, prices are well calibrated.** The calibration
+slope is 1.07 [0.98, 1.18] (perfect calibration is 1), and every robustness
+variant agrees.
 
-Full write-up: `ONE_PAGER.md` for the summary, the report for the details.
+![Reliability diagrams by horizon](figures/reliability_by_horizon.png)
 
-## Research question
+| Horizon | Observations | Events | Calibration slope β [95% CI] |
+| --- | --- | --- | --- |
+| 1 hour | 6,935 | 1,596 | 1.29 [1.21, 1.39] |
+| 1 day | 3,803 | 978 | 1.07 [0.98, 1.18] |
+| 7 days | 1,591 | 370 | 1.08 [0.97, 1.22] |
+| 30 days | 641 | 156 | 1.07 [0.92, 1.30] |
 
-1. **Horizon**: does calibration improve as resolution approaches?
-2. **Favorite-longshot bias**: are longshots overpriced?
-3. **Cost of capital**: does the bias grow with time to resolution?
-4. **Liquidity and category**: is the bias stronger in thin, retail-driven markets?
+**2. Near resolution, a favorite-longshot bias appears, but only in the tails.**
+Kalshi prices cannot go below 1 cent, and the 3,954 contracts quoted there won
+once. The bias fades as prices move away from 0 and 1:
 
-The full protocol (scope, horizons, filters, metrics, robustness checks) was
-fixed before looking at the data.
+| Prices kept, 1 hour before close | β [95% CI] |
+| --- | --- |
+| All | 1.29 [1.21, 1.39] |
+| 0.02 to 0.98 | 1.19 [1.09, 1.30] |
+| 0.05 to 0.95 | 1.13 [1.01, 1.29] |
+| 0.10 to 0.90 | 1.05 [0.91, 1.21] |
 
-## Method in one paragraph
+**3. A small-sample false positive, caught by the protocol.** A first run with
+70 sports events suggested a bias (β = 1.41). With 368 events it vanished
+(β = 1.06 [0.88, 1.30]).
 
-Only **fixed-date markets** are studied (games, data releases, elections,
-daily weather), because markets that can resolve early ("X before December 31")
-create look-ahead bias. Each market's price is frozen at fixed horizons before
-resolution and compared with its 0/1 outcome, using reliability diagrams, the
-Brier score with its Murphy decomposition, and a logistic calibration regression.
-Confidence intervals come from a bootstrap that resamples whole events, since
-markets of the same event are correlated.
+![Calibration slope by family and horizon](figures/beta_by_family.png)
+
+**4. A surprise on liquidity.** The most liquid markets, not the thinnest, show a
+longshot bias one day out: β = 1.54 [1.19, 2.22] above 500,000 contracts traded,
+against 0.97 to 1.05 below. It holds within economics, so it is not a sports
+effect. Exploratory (96 events), to be confirmed out of sample.
+
+**5. Nothing is exploitable by a trader who takes liquidity.**
+
+- Backing sports favorites loses 0.42 cents per contract at the midpoint and 2.38 cents after the spread and taker fees.
+- The 1-cent floor is overpriced, but only 1 of 3,954 floor quotes had a buyer to sell to: the cent goes to market makers who post offers there.
+
+**Takeaway.** Kalshi is well calibrated away from the extremes. The visible
+biases sit in the tails near resolution, where the tick size binds, and the rent
+there goes to liquidity providers.
+
+## Method
+
+- **Fixed-date markets only** (games, data releases, elections, daily weather). Markets that can resolve early ("X before December 31") would create look-ahead bias. A data check confirms that closing times do not depend on outcomes, and caught two mislabelled series.
+- **Prices frozen** 1 hour, 1 day, 7 days and 30 days before close: bid-ask midpoint, or last trade when the spread is wide.
+- **Metrics:** reliability diagrams, Brier score with its Murphy decomposition, and the calibration regression logit P(o = 1) = α + β logit(p). β > 1 means longshots are overpriced.
+- **Inference:** confidence intervals from a bootstrap that resamples whole events, since markets of the same event are correlated.
+- **Discipline:** hypotheses and robustness checks fixed in a protocol before looking at the data; every tool validated on simulated markets with a known truth.
 
 ## Repository structure
 
@@ -55,20 +84,10 @@ notebooks/
 data/
     series_universe.csv     the labelled series, part of the protocol
     observations.parquet    one row per market and horizon (output of the script)
+    results_*.csv           result tables used in the report
 figures/
 tests/
 ```
-
-## Status
-
-- [x] Research protocol
-- [x] Calibration toolkit, validated on simulated data
-- [x] Series universe and fixed-date classification
-- [x] Market and price collection at each horizon
-- [x] Global calibration (provisional: validation sample of 10 events per series)
-- [x] Bias analysis by horizon, liquidity and category (provisional)
-- [x] Exploitability test net of fees (provisional)
-- [ ] Write-up
 
 ## How to run
 
@@ -77,8 +96,8 @@ pip install -r requirements.txt
 python tests/test_calibration.py
 
 # collect the data (resumable: rerun the same command if interrupted)
-python scripts/collect_data.py --events-per-series 50   # about 2 hours
-python scripts/collect_data.py --all                    # full study, about 13 to 14 hours
+python scripts/collect_data.py --events-per-series 50   # about 10 minutes on a fast connection
+python scripts/collect_data.py --all                    # full study, one to two hours
 
 jupyter notebook notebooks/
 ```
